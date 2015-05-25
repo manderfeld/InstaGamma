@@ -141,7 +141,7 @@ div {
   visibility: hidden;
 }
 /* not sure the text will read well so this is probably what will be changing the most*/
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (-webkit-min-devie-pixel-ratio: 2) {
   h1 {
     font-size: 10vw !important;
   }
