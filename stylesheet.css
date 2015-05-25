@@ -79,6 +79,10 @@ h3 {
   padding: 2%;
   position:relative;
 }
+/*margin things for app description*/
+.desc {
+  margin-top: 14%;
+}
 .half {
   width: 46%;
 }
