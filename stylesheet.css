@@ -81,9 +81,6 @@ h3 {
   padding: 2%;
   position:relative;
 }
-.desc {
-  margin-top: 14%;
-}
 .half, .third, .fifth {
   width: 96%;
 }
@@ -99,6 +96,8 @@ div {
   display: none;
 }
 .badge2 {
+  width: 75%;
+  padding-top: 10%;
   display: inline;
 }
 .img {
@@ -166,4 +165,7 @@ div {
   .h {
     display: inline;
   }
+  .desc {
+  margin-top: 14%;
+}
 }
