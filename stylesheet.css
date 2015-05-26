@@ -12,26 +12,29 @@ a {
 }
 h1 {
   font-family: 'Merriweather', sans-serif;
-  font-size: 4.5rem;
+  font-size: 10vw;
   font-style: normal;
   font-weight: 700;
   margin-bottom: 15px;
 }
 h2 {
   font-family: 'Merriweather', sans-serif;
-  font-size: 3rem;
+  font-size: 8vw;
+  /*font-size: 3rem;*/
   font-style: normal;
   font-weight: 400;
   margin-bottom: 15px;
 }
 h3 {
   font-family: 'Quicksand', sans-serif;
-  font-size: 2rem;
+  font-size: 6vw;
+  /*font-size: 2rem;*/
   font-weight: 400;
 }
 .panel p {
   font-family: 'Quicksand', sans-serif;
-  font-size: 1.5rem;
+  font-size: 4.5vw;
+  /*font-size: 1.5rem;*/
   font-weight: 300;
   color: #ddd;
   max-width: 740px;
@@ -47,7 +50,6 @@ h3 {
 .third p, .fifth p {
   font-size: 1rem;
 }
-/*just changing the background colors maybe there's a more effcient way of doing this*/
 .one {
   background-color: #17438a;
 }
@@ -79,18 +81,11 @@ h3 {
   padding: 2%;
   position:relative;
 }
-/*margin things for app description*/
 .desc {
   margin-top: 14%;
 }
-.half {
-  width: 46%;
-}
-.third {
-  width: 29.33%;
-}
-.fifth {
-  width: 16%;
+.half, .third, .fifth {
+  width: 96%;
 }
 div {
   border: 0;
@@ -100,16 +95,11 @@ div {
   padding: 0;
   vertical-align: baseline;
 }
-.badge {
-  width: 135px;
-  height: auto;
-  border: 0px;
-  display: inline;
+.badge, .h {
+  display: none;
 }
 .badge2 {
-  width: 207px;
-  height: auto;
-  display: none;
+  display: inline;
 }
 .img {
   width: 100%;
@@ -140,30 +130,40 @@ div {
   height: 0;
   visibility: hidden;
 }
-/* not sure the text will read well so this is probably what will be changing the most*/
-@media only screen and (max-width: 768px) and (-webkit-min-devie-pixel-ratio: 2) {
+@media only screen and (min-width: 768px) {
   h1 {
-    font-size: 10vw !important;
+    font-size: 4.5rem;
   }
   h2 {
-   font-size: 8vw !important;
+    font-size: 3rem;
   }
   h3 {
-    font-size: 6vw !important;
+    font-size: 2rem;
   }
   .panel p {
-   font-size: 4.5vw !important;
+    font-size: 1.5rem;
   }
-  .half, .third, .fifth {
-   width: 96% !important;
+  .half {
+    width: 46%;
+  }
+  .third {
+    width: 29.33%;
+  }
+  .fifth {
+    width: 16%;
   }
   .badge {
-    display: none !important;
+    width: 135px;
+    height: auto;
+    border: 0px;
+    display: inline;
   }
   .badge2 {
-    display: inline !important;
+    width: 207px;
+    height: auto;
+    display: none;
   }
   .h {
-    display: none !important;
+    display: inline;
   }
 }
