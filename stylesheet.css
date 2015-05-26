@@ -20,7 +20,6 @@ h1 {
 h2 {
   font-family: 'Merriweather', sans-serif;
   font-size: 8vw;
-  /*font-size: 3rem;*/
   font-style: normal;
   font-weight: 400;
   margin-bottom: 15px;
@@ -28,13 +27,11 @@ h2 {
 h3 {
   font-family: 'Quicksand', sans-serif;
   font-size: 6vw;
-  /*font-size: 2rem;*/
   font-weight: 400;
 }
 .panel p {
   font-family: 'Quicksand', sans-serif;
   font-size: 4.5vw;
-  /*font-size: 1.5rem;*/
   font-weight: 300;
   color: #ddd;
   max-width: 740px;
@@ -129,7 +126,7 @@ div {
   height: 0;
   visibility: hidden;
 }
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   h1 {
     font-size: 4.5rem;
   }
