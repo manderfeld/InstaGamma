@@ -12,26 +12,26 @@ a {
 }
 h1 {
   font-family: 'Merriweather', sans-serif;
-  font-size: 10vw;
+  font-size: 11vw;
   font-style: normal;
   font-weight: 700;
   margin-bottom: 15px;
 }
 h2 {
   font-family: 'Merriweather', sans-serif;
-  font-size: 8vw;
+  font-size: 9vw;
   font-style: normal;
   font-weight: 400;
   margin-bottom: 15px;
 }
 h3 {
   font-family: 'Quicksand', sans-serif;
-  font-size: 6vw;
+  font-size: 7.5vw;
   font-weight: 400;
 }
 .panel p {
   font-family: 'Quicksand', sans-serif;
-  font-size: 4.5vw;
+  font-size: 6vw;
   font-weight: 300;
   color: #ddd;
   max-width: 740px;
@@ -45,7 +45,7 @@ h3 {
   text-align: left;
 }
 .third p, .fifth p {
-  font-size: 1rem;
+  font-size: 6vw;
 }
 .one {
   background-color: #17438a;
@@ -164,5 +164,4 @@ div {
   }
   .desc {
   margin-top: 14%;
-}
 }
