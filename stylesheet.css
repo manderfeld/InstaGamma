@@ -148,6 +148,9 @@ div {
   .fifth {
     width: 16%;
   }
+  .fifth p {
+    font-size: 1.1rem;
+  }
   .badge {
     width: 135px;
     height: auto;
