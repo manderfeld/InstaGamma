@@ -110,6 +110,7 @@ div {
   position: relative;
   padding-bottom: 54.1%;
   padding-top: 2.2%;
+  display: none;
 }
 .video-wrapper iframe {
   position: absolute;
@@ -168,3 +169,7 @@ div {
   .desc {
   margin-top: 14%;
 }
+  .video-wrapper {
+  display: block;
+}
+  }
